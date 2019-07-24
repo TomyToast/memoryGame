@@ -1,0 +1,47 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+
+    width: 80%;
+    border: 2px solid white;
+    padding: 2em;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardBack {
+    width: 10em;
+    height: 10em;
+    border: 2px solid white;
+    border-radius: .1em;
+    background: grey;
+    margin: 1em;
+
+    cursor: pointer;
+}
